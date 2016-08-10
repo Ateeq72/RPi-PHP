@@ -77,8 +77,8 @@
     function bindNippleL () {
         joystickL.on('start end', function (evt, data) {
             var dataToSend = {};
-            dataToSend['start_end'] = evt.type;
-            jQuery.post('/doStuff.php',dataToSend);
+            dataToSend['action'] = evt.type;
+            jQuery.post('/doStuffHandler.php',dataToSend);
             //console.log(data);
         }).on('move', function (evt, data) {
             //console.log(data);
@@ -86,8 +86,8 @@
                 'plain:down dir:right plain:right',
                 function (evt, data) {
                     var dataToSend = {};
-                    dataToSend['accel'] = data.direction.y;
-                    jQuery.post('/doStuff.php',dataToSend);
+                    dataToSend['action'] = data.direction.y;
+                    jQuery.post('/doStuffHandler.php',dataToSend);
                     console.log('LJS : '+evt.type);
                 }
         ).on('pressure', function (evt, data) {
@@ -97,8 +97,8 @@
     function bindNippleR () {
         joystickR.on('start end', function (evt, data) {
             var dataToSend = {};
-            dataToSend['start_end'] = evt.type;
-            jQuery.post('/doStuff.php',dataToSend);
+            dataToSend['action'] = evt.type;
+            jQuery.post('/doStuffHandler.php',dataToSend);
            // console.log(data);
         }).on('move', function (evt, data) {
            // console.log(data);
@@ -106,9 +106,8 @@
                 'plain:down dir:right plain:right',
                 function (evt, data) {
                     var dataToSend = {};
-                    dataToSend['steer'] = data.direction.y;
-                    jQuery.post('/doStuff.php',dataToSend);
-                    console.log('LJS : '+evt.type);
+                    dataToSend['action'] = data.direction.x;
+                    jQuery.post('/doStuffHandler.php',dataToSend);
                     console.log('RJS : '+evt.type);
                 }
         ).on('pressure', function (evt, data) {
