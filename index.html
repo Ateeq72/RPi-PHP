@@ -82,8 +82,7 @@
             //console.log(data);
         }).on('move', function (evt, data) {
             //console.log(data);
-        }).on('dir:up plain:up dir:left plain:left dir:down ' +
-                'plain:down dir:right plain:right',
+        }).on('dir:up dir:down ',
                 function (evt, data) {
                     var dataToSend = {};
                     dataToSend['action'] = data.direction.y;
@@ -102,8 +101,7 @@
            // console.log(data);
         }).on('move', function (evt, data) {
            // console.log(data);
-        }).on('dir:up plain:up dir:left plain:left dir:down ' +
-                'plain:down dir:right plain:right',
+        }).on('dir:left dir:right',
                 function (evt, data) {
                     var dataToSend = {};
                     dataToSend['action'] = data.direction.x;
