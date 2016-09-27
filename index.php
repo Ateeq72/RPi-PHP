@@ -1,10 +1,12 @@
 <?php
-$allFolders = scandir('/home/ateeq/common/');
+$allFolders = scandir('/home/ateeq-ahmed/common/');
 echo "<table align='center'>";
-echo "<tr><td>Pages we Got:</td></tr>";
+echo "<tr><td align='center' valign='middle'><strong>Pages we Got:</strong></td></tr>\n";
 foreach ($allFolders as $allFolder)
 {
-    echo '<tr><td><a href=/'.$allFolder.'>'.$allFolder.'</a></td></tr>';
+    echo "<tr><td align='center' valign='middle'><a href=/".$allFolder.">".$allFolder."</a></td></tr>\n";
 }
 echo "</table>";
+echo "<p align='center' valign='middle'><strong>PHPInfo For ya!</strong></p>";
+echo phpinfo();
 ?>
