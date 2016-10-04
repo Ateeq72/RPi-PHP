@@ -1,0 +1,135 @@
+[2016/09/29 14:41:06 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 14:41:06 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 14:41:06 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 14:41:06 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 14:41:06 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 14:41:06 IST] [INFO] Server is initializing...
+[2016/09/29 14:41:06 IST] [INFO] Pinging sql master database
+[2016/09/29 14:41:06 IST] [CRIT] Failed to ping db err:dial tcp: lookup dockerhost: no such host
+[2016/09/29 14:41:14 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 14:41:14 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 14:41:14 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 14:41:14 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 14:41:14 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 14:41:14 IST] [INFO] Server is initializing...
+[2016/09/29 14:41:14 IST] [INFO] Pinging sql master database
+[2016/09/29 14:41:14 IST] [CRIT] Failed to ping db err:dial tcp: lookup dockerhost: no such host
+[2016/09/29 14:42:48 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 14:42:48 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 14:42:48 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 14:42:48 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 14:42:48 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 14:42:48 IST] [INFO] Server is initializing...
+[2016/09/29 14:42:48 IST] [INFO] Pinging sql master database
+[2016/09/29 14:42:48 IST] [CRIT] Failed to ping db err:dial tcp: lookup dockerhost: no such host
+[2016/09/29 14:44:34 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 14:44:34 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 14:44:34 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 14:44:34 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 14:44:34 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 14:44:34 IST] [INFO] Server is initializing...
+[2016/09/29 14:44:34 IST] [INFO] Pinging sql master database
+[2016/09/29 14:44:34 IST] [CRIT] Failed to ping db err:dial tcp: lookup dockerhost: no such host
+[2016/09/29 14:45:42 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 14:45:42 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 14:45:42 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 14:45:42 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 14:45:42 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 14:45:42 IST] [INFO] Server is initializing...
+[2016/09/29 14:45:42 IST] [INFO] Pinging sql master database
+[2016/09/29 14:45:42 IST] [CRIT] Failed to ping db err:Error 1045: Access denied for user 'mmuser'@'localhost' (using password: YES)
+[2016/09/29 14:47:50 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 14:47:50 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 14:47:50 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 14:47:50 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 14:47:50 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 14:47:50 IST] [INFO] Server is initializing...
+[2016/09/29 14:47:50 IST] [INFO] Pinging sql master database
+[2016/09/29 14:47:50 IST] [CRIT] Failed to ping db err:Error 1045: Access denied for user 'mmuser'@'localhost' (using password: YES)
+[2016/09/29 14:47:53 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 14:47:53 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 14:47:53 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 14:47:53 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 14:47:53 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 14:47:53 IST] [INFO] Server is initializing...
+[2016/09/29 14:47:53 IST] [INFO] Pinging sql master database
+[2016/09/29 14:47:53 IST] [CRIT] Failed to ping db err:Error 1045: Access denied for user 'mmuser'@'localhost' (using password: YES)
+[2016/09/29 14:48:48 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 14:48:48 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 14:48:48 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 14:48:48 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 14:48:48 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 14:48:48 IST] [INFO] Server is initializing...
+[2016/09/29 14:48:48 IST] [INFO] Pinging sql master database
+[2016/09/29 14:48:48 IST] [INFO] Pinging sql replica-0 database
+[2016/09/29 14:48:54 IST] [INFO] The database schema has been set to version 3.4.0
+[2016/09/29 14:49:04 IST] [INFO] Starting Server...
+[2016/09/29 14:49:04 IST] [INFO] Server is listening on :8065
+[2016/09/29 14:49:04 IST] [INFO] RateLimiter is enabled
+[2016/09/29 14:49:21 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 14:49:21 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 14:49:21 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 14:49:21 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 14:49:21 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 14:49:21 IST] [INFO] Server is initializing...
+[2016/09/29 14:49:21 IST] [INFO] Pinging sql master database
+[2016/09/29 14:49:21 IST] [INFO] Pinging sql replica-0 database
+[2016/09/29 14:49:21 IST] [INFO] Starting Server...
+[2016/09/29 14:49:21 IST] [INFO] Server is listening on :8065
+[2016/09/29 14:49:21 IST] [INFO] RateLimiter is enabled
+[2016/09/29 14:52:09 IST] [EROR] Failed to save status for user_id=i1u8wtxmqbb59q6h48d4pn4bpy, err=SqlStatusStore.SaveOrUpdate: store.sql_status.save.app_error, 
+[2016/09/29 15:56:36 IST] [EROR] /hooks/z8e4ssshtbnx5rshr86y75a3pr:incomingWebhook code=500 rid=rgeg8z7zcir9fggpo94zn6pi5e uid= ip=::1 Unable to parse incoming data [details: ]
+[2016/09/29 16:12:21 IST] [INFO] Stopping Server...
+[2016/09/29 16:12:21 IST] [INFO] Closing SqlStore
+[2016/09/29 16:12:50 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 16:12:50 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 16:12:50 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 16:12:50 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 16:12:50 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 16:12:50 IST] [INFO] Server is initializing...
+[2016/09/29 16:12:50 IST] [INFO] Pinging sql master database
+[2016/09/29 16:12:50 IST] [INFO] Pinging sql replica-0 database
+[2016/09/29 16:12:50 IST] [INFO] Starting Server...
+[2016/09/29 16:12:50 IST] [INFO] Server is listening on :8056
+[2016/09/29 16:12:50 IST] [INFO] RateLimiter is enabled
+[2016/09/29 16:19:12 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 16:19:12 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 16:19:12 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 16:19:12 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 16:19:12 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 16:19:12 IST] [INFO] Server is initializing...
+[2016/09/29 16:19:12 IST] [INFO] Pinging sql master database
+[2016/09/29 16:19:12 IST] [INFO] Pinging sql replica-0 database
+[2016/09/29 16:19:12 IST] [INFO] Starting Server...
+[2016/09/29 16:19:12 IST] [INFO] Server is listening on :8056
+[2016/09/29 16:19:12 IST] [INFO] RateLimiter is enabled
+[2016/09/29 16:20:24 IST] [INFO] Stopping Server...
+[2016/09/29 16:20:24 IST] [INFO] Closing SqlStore
+[2016/09/29 16:20:25 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/29 16:20:25 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/29 16:20:25 IST] [INFO] Enterprise Enabled: false
+[2016/09/29 16:20:25 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/29 16:20:25 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/29 16:20:25 IST] [INFO] Server is initializing...
+[2016/09/29 16:20:25 IST] [INFO] Pinging sql master database
+[2016/09/29 16:20:25 IST] [INFO] Pinging sql replica-0 database
+[2016/09/29 16:20:25 IST] [INFO] Starting Server...
+[2016/09/29 16:20:25 IST] [INFO] Server is listening on :8065
+[2016/09/29 16:20:25 IST] [INFO] RateLimiter is enabled
+[2016/09/29 17:50:59 IST] [INFO] Stopping Server...
+[2016/09/29 17:50:59 IST] [INFO] Closing SqlStore
+[2016/09/30 11:51:24 IST] [INFO] Loaded system translations for 'en' from '/home/ateeq-ahmed/common/mattermost/i18n/en.json'
+[2016/09/30 11:51:24 IST] [INFO] Current version is 3.4.0 (3.4.0/Wed Sep 14 13:19:13 UTC 2016/57f25fa59c71821cc38fd220b133aa6a40815e12/none)
+[2016/09/30 11:51:24 IST] [INFO] Enterprise Enabled: false
+[2016/09/30 11:51:24 IST] [INFO] Current working directory is /home/ateeq-ahmed/common/mattermost/bin
+[2016/09/30 11:51:24 IST] [INFO] Loaded config file from /home/ateeq-ahmed/common/mattermost/config/config.json
+[2016/09/30 11:51:24 IST] [INFO] Server is initializing...
+[2016/09/30 11:51:24 IST] [INFO] Pinging sql master database
+[2016/09/30 11:51:24 IST] [INFO] Pinging sql replica-0 database
+[2016/09/30 11:51:25 IST] [INFO] Starting Server...
+[2016/09/30 11:51:25 IST] [INFO] Server is listening on :8065
+[2016/09/30 11:51:25 IST] [INFO] RateLimiter is enabled
+[2016/09/30 11:57:05 IST] [EROR] /hooks/z8e4ssshtbnx5rshr86y75a3pr:incomingWebhook code=500 rid=cxqkowwtcjysmkw9wggmra5qsc uid= ip=127.0.0.1 Unable to parse incoming data [details: ]
+[2016/09/30 12:09:38 IST] [EROR] /hooks/z8e4ssshtbnx5rshr86y75a3pr:incomingWebhook code=500 rid=7zsq3waew3no3pbn3a6heomfgc uid= ip=127.0.0.1 Unable to parse incoming data [details: ]
+[2016/09/30 18:09:43 IST] [INFO] Stopping Server...
+[2016/09/30 18:09:43 IST] [INFO] Closing SqlStore
