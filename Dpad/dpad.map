@@ -1,0 +1,15 @@
+<img src="Untitled" width="377" height="294" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:jalawler -->
+<area shape="rect" coords="0,0,131,147" href="Forward-Left" />
+<area shape="rect" coords="131,0,242,147" href="Forward" />
+<area shape="rect" coords="131,147,242,292" href="Backward" />
+<area shape="rect" coords="0,147,131,293" href="Back-Left" />
+<area shape="rect" coords="242,147,377,294" href="Back-Right" />
+<area shape="rect" coords="243,0,376,147" href="Forward-Right" />
+</map>
