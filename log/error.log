@@ -23,3 +23,258 @@ PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading up
 PHP message: PHP Stack trace:
 PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.5, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.1.6", referrer: "http://192.168.1.6/"
 2016/08/09 18:17:10 [error] 3729#0: *442 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.1.5, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock", host: "192.168.1.6", referrer: "http://192.168.1.6/"
+2016/08/15 10:34:31 [error] 654#0: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.5.102, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.5.78", referrer: "http://192.168.5.78/"
+2016/08/15 10:34:31 [error] 654#0: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.5.102, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.5.78", referrer: "http://192.168.5.78/"
+2016/08/15 10:34:31 [error] 654#0: *6 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.5.102, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.5.78", referrer: "http://192.168.5.78/"
+2016/08/15 10:34:31 [error] 654#0: *9 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.5.102, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.5.78", referrer: "http://192.168.5.78/"
+2016/08/15 10:34:32 [error] 654#0: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.5.102, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.5.78", referrer: "http://192.168.5.78/"
+2016/08/15 10:34:32 [error] 654#0: *9 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.5.102, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.5.78", referrer: "http://192.168.5.78/"
+2016/08/20 10:24:45 [error] 658#0: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.1.97", referrer: "http://192.168.1.97/"
+2016/08/20 10:24:45 [error] 658#0: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.1.97", referrer: "http://192.168.1.97/"
+2016/08/20 10:24:45 [error] 658#0: *7 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "192.168.1.97", referrer: "http://192.168.1.97/"
+2016/08/20 10:24:54 [error] 659#0: *15 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:54 [error] 659#0: *19 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:54 [error] 659#0: *21 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:56 [error] 660#0: *28 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:56 [error] 659#0: *21 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:56 [error] 659#0: *15 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:56 [error] 659#0: *19 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:56 [error] 659#0: *21 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:56 [error] 659#0: *19 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:56 [error] 659#0: *19 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:57 [error] 659#0: *21 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:57 [error] 659#0: *16 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:57 [error] 659#0: *19 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:57 [error] 660#0: *28 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:57 [error] 659#0: *21 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:24:57 [error] 659#0: *16 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:43 [error] 659#0: *59 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:43 [error] 659#0: *62 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:43 [error] 659#0: *59 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:46 [error] 659#0: *58 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:46 [error] 659#0: *62 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:46 [error] 659#0: *66 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:47 [error] 659#0: *59 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:47 [error] 659#0: *62 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:47 [error] 659#0: *58 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:27:47 [error] 658#0: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:08 [error] 658#0: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:08 [error] 659#0: *58 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:08 [error] 659#0: *66 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:08 [error] 659#0: *59 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:08 [error] 659#0: *84 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:08 [error] 659#0: *58 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:08 [error] 658#0: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:09 [error] 659#0: *62 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:09 [error] 659#0: *59 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:09 [error] 658#0: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:28:09 [error] 659#0: *59 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:34:40 [error] 660#0: *104 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:34:40 [error] 660#0: *106 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:34:40 [error] 660#0: *107 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:44:27 [error] 660#0: *112 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:44:27 [error] 660#0: *115 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:44:27 [error] 660#0: *117 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:44:27 [error] 660#0: *112 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:45:37 [error] 659#0: *131 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:45:37 [error] 659#0: *134 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:45:37 [error] 659#0: *132 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/08/20 10:45:37 [error] 659#0: *137 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.2, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:47 [error] 633#0: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:47 [error] 633#0: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:47 [error] 633#0: *6 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:48 [error] 633#0: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:48 [error] 633#0: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:48 [error] 633#0: *6 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:53 [error] 633#0: *6 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:53 [error] 633#0: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:53 [error] 633#0: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:54 [error] 633#0: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:54 [error] 633#0: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:44:54 [error] 633#0: *6 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: downUsed in /home/pi/MyRPiCar/doStuff.php on line 20
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:31 [error] 633#0: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:31 [error] 633#0: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:31 [error] 633#0: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:31 [error] 633#0: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:38 [error] 633#0: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:38 [error] 633#0: *5 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:38 [error] 633#0: *6 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:39 [error] 633#0: *1 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:39 [error] 633#0: *6 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:45:39 [error] 633#0: *2 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:47:46 [error] 634#0: *74 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:47:46 [error] 634#0: *72 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:47:46 [error] 634#0: *76 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: _, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "www.ateeq-rpi.com", referrer: "http://www.ateeq-rpi.com/"
+2016/09/25 11:52:10 [error] 2060#0: *3 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: car.ateeq-rpi.com, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "car.ateeq-rpi.com", referrer: "http://car.ateeq-rpi.com/"
+2016/09/25 11:52:10 [error] 2060#0: *6 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: car.ateeq-rpi.com, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "car.ateeq-rpi.com", referrer: "http://car.ateeq-rpi.com/"
+2016/09/25 11:52:10 [error] 2060#0: *7 FastCGI sent in stderr: "PHP message: PHP Notice:  Undefined variable: upUsed in /home/pi/MyRPiCar/doStuff.php on line 13
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /home/pi/MyRPiCar/doStuff.php:0" while reading upstream, client: 192.168.1.4, server: car.ateeq-rpi.com, request: "POST /doStuff.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "car.ateeq-rpi.com", referrer: "http://car.ateeq-rpi.com/"

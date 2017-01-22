@@ -21,10 +21,10 @@
          if (isset($action)) {
              switch ($action) {
                  case "" :
-                     self::start();
+                     self::defaultFunc();
                      break;
                  case 'start' :
-                     self::start();
+                     self::defaultFunc();
                      break;
                  case 'end' :
                      self::end();
@@ -48,48 +48,58 @@
          }
      }
 
-     public function start()
+     public function defaultFunc()
      {
-         shell_exec('/usr/local/bin/gpio mode 16 out');
-         shell_exec('/usr/local/bin/gpio mode 18 out');
-         shell_exec('/usr/local/bin/gpio mode 22 out');
-         shell_exec('/usr/local/bin/gpio mode 24 out');
+         system('gpio mode 16 out');
+         system('gpio mode 18 out');
+         system('gpio mode 22 out');
+         system('gpio mode 24 out');
 
-         shell_exec('/usr/local/bin/gpio write 16 0');
-         shell_exec('/usr/local/bin/gpio write 18 0');
-         shell_exec('/usr/local/bin/gpio write 22 0');
-         shell_exec('/usr/local/bin/gpio write 24 0');
+         system('gpio pwm 38 100');
+         system('gpio pwm 40 100');
+
+         system('gpio write 16 0');
+         system('gpio write 18 0');
+         system('gpio write 22 0');
+         system('gpio write 24 0');
      }
 
      public function end()
      {
-         shell_exec('/usr/local/bin/gpio write 16 0');
-         shell_exec('/usr/local/bin/gpio write 18 0');
-         shell_exec('/usr/local/bin/gpio write 22 0');
-         shell_exec('/usr/local/bin/gpio write 24 0');
+         system('gpio write 16 0');
+         system('gpio write 18 0');
+         system('gpio write 22 0');
+         system('gpio write 24 0');
      }
 
      public function up()
      {
-             shell_exec('/usr/local/bin/gpio write 16 1');
-             shell_exec('/usr/local/bin/gpio write 18 0');
+         self::defaultFunc();
+
+             system('gpio write 16 1');
+             system('gpio write 18 0');
+
+         exec ("gpio read 18", $status, $return );
+         exec('espeak "Ran from e x e c"');
+         system('espeak "Ran from system"');
+         echo($status);
      }
 
      public function down()
      {
-             shell_exec('/usr/local/bin/gpio write 16 0');
-             shell_exec('/usr/local/bin/gpio write 18 1');
+             system('gpio write 16 0');
+             system('gpio write 18 1');
      }
 
      public function left()
      {
-             shell_exec('/usr/local/bin/gpio write 22 1');
-             shell_exec('/usr/local/bin/gpio write 24 0');
+             system('gpio write 22 1');
+             system('gpio write 24 0');
      }
 
      public function right()
      {
-             shell_exec('/usr/local/bin/gpio write 22 0');
-             shell_exec('/usr/local/bin/gpio write 24 1');
+             system('gpio write 22 0');
+             system('gpio write 24 1');
      }
  }
