@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>First_STD_ReportCard</title>
+  </head>
+  <body style = "background: white;"><strong> </strong>
+    <table style="width: 100%;" border="0">
+      <tbody>
+        <tr>
+          <td><strong>NAME</strong></td>
+          <td><strong>:</strong></td>
+          <td>ATEEQ AHMED</td>
+          <td><strong>CLASS</strong></td>
+          <td><strong>:</strong></td>
+          <td>12 - A</td>
+          <td><strong>ROLL No.</strong></td>
+          <td><strong>:</strong></td>
+          <td>191111009</td>
+        </tr>
+        <tr>
+          <td><strong>MOTHER's NAME</strong></td>
+          <td><strong>:</strong></td>
+          <td>MOM</td>
+          <td><strong>D.O.B</strong></td>
+          <td><strong>:</strong></td>
+          <td>22/22/22</td>
+          <td><strong>G. R. No.</strong></td>
+          <td><strong>:</strong></td>
+          <td>225524</td>
+        </tr>
+        <tr>
+          <td><strong>FATHER's NAME</strong></td>
+          <td><strong>:</strong></td>
+          <td>DAD</td>
+          <td><strong>HOUSE</strong></td>
+          <td><strong>:</strong></td>
+          <td colspan="4" rowspan="1"><strong><br>
+            </strong> </td>
+        </tr>
+      </tbody>
+    </table>
+    <strong> </strong>
+    <p style="margin-left: -6px;"><strong><br>
+      </strong> </p>
+    <strong> </strong>
+    <table style="width: 100%;" border="0" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td colspan="1" rowspan="4"><strong><br>
+            </strong> <strong><br>
+            </strong> <strong><br>
+            </strong> </td>
+          <td colspan="1" rowspan="2" style="height: 19px;"><strong>SUBJECTS</strong></td>
+          <td style="text-align: center;" colspan="2" rowspan="1"><strong>C.C.A.</strong></td>
+        </tr>
+        <tr>
+          <td style="text-align: center;"><strong>MARKS<br>
+            </strong></td>
+          <td style="text-align: center;"><strong>GRADE<br>
+            </strong></td>
+          <td style="text-align: center;"><strong>MARKS<br>
+            </strong></td>
+          <td style="text-align: center;"><strong>GRADE<br>
+            </strong></td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td><br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </td>
+          <td style="width: 161.033px;"><br>
+          </td>
+          <td style="width: 150px;"><br>
+          </td>
+          <td style="width: 219.833px;"><br>
+          </td>
+          <td style="width: 216.483px;"><br>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>ATTENDANCE</strong></td>
+          <td colspan="4" rowspan="1"><strong><br>
+            </strong> </td>
+        </tr>
+      </tbody>
+    </table>
+    <strong> </strong><br>
+    <table style="width: 100%;" border="1" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr>
+          <td colspan="2" rowspan="1"><strong>AUXILIARY SUBJECTS<br>
+            </strong></td>
+          <td colspan="2" rowspan="1"><strong>PERSONALITY DEVELOPMENT<br>
+            </strong></td>
+        </tr>
+        <tr>
+          <td style="width: 396.967px;"><br>
+          </td>
+          <td style="width: 98.967px;"><br>
+          </td>
+          <td style="width: 613.533px;"><br>
+          </td>
+          <td style="width: 77.5333px;">fd</td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="width: 1197px; height: 172px;" border="1">
+      <caption><strong><br>
+        </strong></caption>
+      <tbody>
+        <tr>
+          <td><strong>PERFORMANCE ANALYSIS</strong></td>
+          <td><strong>REMARKS</strong></td>
+        </tr>
+        <tr>
+          <td colspan="1" rowspan="3"><strong><br>
+            </strong></td>
+          <td>Good</td>
+        </tr>
+        <tr align="center">
+          <td><strong>GRADING SCALE</strong></td>
+        </tr>
+        <tr align="center">
+          <td><strong><b>90 - 100%&nbsp;&nbsp; - EXCELLENT<br>
+                75 - 89%&nbsp;&nbsp;&nbsp;&nbsp; - VERY GOOD<br>
+                56 - 74%&nbsp;&nbsp;&nbsp;&nbsp; - GOOD<br>
+                35 - 55%&nbsp;&nbsp;&nbsp;&nbsp; - AVERAGE<br>
+                Below 35% - NEED IMPROVEMENT</b></strong></td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="width: 100%;" border="1">
+      <tbody>
+        <tr>
+          <td style="height: 19px;"><strong>Issue Date<br>
+            </strong></td>
+          <td colspan="4" rowspan="1"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="height: 19px;" colspan="5" rowspan="1"><br>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>CLASS TEACHER<br>
+            </strong></td>
+          <td><strong>HEAD MISTRESS<br>
+            </strong></td>
+          <td><strong>CONTROLLER OF EXAM<br>
+            </strong></td>
+          <td><strong>VICE PRINCIPAL<br>
+            </strong></td>
+          <td><strong>PRINCIPAL &amp; HOI<br>
+            </strong></td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-left: -6px;"><strong><br>
+      </strong></p>
+    <p style="margin-left: -6px;"><strong><br>
+      </strong> </p>
+    <strong> </strong>
+  </body>
+</html>
