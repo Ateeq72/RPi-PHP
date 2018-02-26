@@ -18,15 +18,26 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+        sendTo('hello','192.168.0.77',8777);
 
-        console.log('Received Event: ' + id);
     }
 };
 
 app.initialize();
+
+function sendTo(data, addr, port) {
+    chrome.sockets.udp.create(function(createInfo) {
+        chrome.sockets.udp.bind(createInfo.socketId, '0.0.0.0', 0, function(result) {
+            chrome.sockets.udp.send(createInfo.socketId, data, addr, port, function(result) {
+                if (result < 0) {
+                    console.log('send fail: ' + result);
+                    chrome.sockets.udp.close(createInfo.socketId);
+                } else {
+                    console.log('sendTo: success ' + port);
+                    chrome.sockets.udp.close(createInfo.socketId);
+                }
+            });
+        });
+    });
+}
