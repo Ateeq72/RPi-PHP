@@ -19,7 +19,7 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
 
-        sendTo('hello','192.168.0.77',8777);
+        sendTo(new ArrayBuffer('hello'),'192.168.0.77',8777);
 
     }
 };
