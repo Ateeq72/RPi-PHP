@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Set IP And Port</title>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/jquery-2.2.4.js"></script>
+    <style>
+        html, body {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var ipAndPort = getIpAndPort();
+
+            document.getElementById("ip").value = ipAndPort.ip  || '';
+            document.getElementById("port").value = ipAndPort.port || '';
+
+        });
+
+        function handleSubmit(){
+
+            var ip = document.getElementById("ip").value;
+            var port = document.getElementById("port").value;
+
+            if (ip == null || port == null || ip == undefined || port == undefined || ip == '' || port == ''){
+                alert('Invalid IP or Port!');
+                return;
+            }
+
+            setIpAndPort(ip,port);
+            alert("Done!");
+        }
+
+    </script>
+</head>
+<body>
+<div style="text-align: center; right: auto; left: auto; position: absolute; width: 100%;">
+<form id="setIpAndPort" onsubmit="handleSubmit()">
+    <br><br>
+    <strong>Set IP and Port :</strong>
+    <br><br>
+    Enter IP : <input type="text" id="ip" placeholder="192.168.1.7"/><br><br>
+    Enter Port : <input type="text" id="port" placeholder="8777"/><br><br>
+    <input title="Save" type="submit"><br>
+</form>
+</div>
+</body>
+</html>

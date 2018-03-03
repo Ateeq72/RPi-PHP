@@ -21,6 +21,7 @@
             height: 100%;
             width: 50%;
             background: rgba(0, 255, 0, 0.1);
+            z-index: 25;
         }
 
         #right {
@@ -30,6 +31,20 @@
             height: 100%;
             width: 50%;
             background: rgba(0, 0, 255, 0.1);
+            z-index: 25;
+        }
+
+        #button {
+            position: absolute;
+            bottom: 0;
+            z-index: 30;
+            width: 50%;
+        }
+        #btnDiv {
+            position: absolute;
+            bottom: 0;
+            padding-left: 250px;
+            z-index: 30;
         }
         #debugR {
             position: absolute;
@@ -52,14 +67,24 @@
 <body>
 <div id="controller">
 <div id="left"></div>
+<div id="btnDiv">
+<button id="button" onclick="openSetIpPortScreen()">Set IP and Port</button>
+</div>
 <div id="right"></div>
 </div>
 <div id="showResponse"></div>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 <script src="js/nipplejs.min.js"></script>
 <script src="js/jquery-2.2.4.js"></script>
 <script>
+
+    var ipAndPort = getIpAndPort();
+
+    function openSetIpPortScreen() {
+        window.location = "setIpAndPort.html";
+    }
 
     var joystickL = nipplejs.create({
         zone: document.getElementById('left'),
@@ -87,7 +112,7 @@
         joystickL.on('start end', function (evt, data) {
             var dataToSend = {};
             dataToSend['action'] = evt.type;
-//            jQuery.post('/doStuffHandler.php',dataToSend);
+            sendTo('acc_' + dataToSend['action'],ipAndPort.ip,ipAndPort.port);
             //console.log(data);
         }).on('move', function (evt, data) {
             //console.log(data);
@@ -95,7 +120,7 @@
                 function (evt, data) {
                     var dataToSend = {};
                     dataToSend['action'] = data.direction.y;
-//                    jQuery.post('/doStuffHandler.php',dataToSend);
+                    sendTo(dataToSend['action'],ipAndPort.ip,ipAndPort.port);
                     console.log('LJS : '+evt.type);
                     response(evt.type);
                 }
@@ -108,7 +133,7 @@
         joystickR.on('start end', function (evt, data) {
             var dataToSend = {};
             dataToSend['action'] = evt.type;
-//            jQuery.post('/doStuffHandler.php',dataToSend);
+            sendTo('steer_' + dataToSend['action'],ipAndPort.ip,ipAndPort.port);
            // console.log(data);
         }).on('move', function (evt, data) {
            // console.log(data);
@@ -116,7 +141,7 @@
                 function (evt, data) {
                     var dataToSend = {};
                     dataToSend['action'] = data.direction.x;
-//                    jQuery.post('/doStuffHandler.php',dataToSend);
+                    sendTo(dataToSend['action'],ipAndPort.ip,ipAndPort.port);
                     console.log('RJS : '+evt.type);
                     response(evt.type);
                 }
